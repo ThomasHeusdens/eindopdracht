@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div id="search-container">
+				<input type="search" id="search-input" placeholder="Search a TV Show here.." />
+				<button id="search">Search</button>
+			</div>
+			<div id="buttons">
+				<button class="button-value" onclick="all()">Shuffle</button>
+				<button class="button-value" onclick="year()">Year</button>
+				<button class="button-value" onclick="rating()">Rating</button>
+				<button class="button-value" onclick="az()">A-Z</button>
+			</div>
+		</div>
+		<div id="product"></div>
+		<script src="script.js"></script>
+	</body>
+</html>
